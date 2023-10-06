@@ -25,17 +25,17 @@ Stuff done on 06-10-23.
 | !=                  | Not equal to                 | 7 != 7 = False |
 
 ## Logical Operators:
-### Logical AND:
+#### Logical AND:
   | AND   | TRUE | FALSE |
 |-------|------|-------|
 | TRUE  | TRUE | FALSE |
 | FALSE | FALSE| FALSE |
-* Logical OR:
+#### Logical OR:
 |  OR   | TRUE  | FALSE |
 |-------|-------|-------|
 | TRUE  | TRUE  | TRUE  |
 | FALSE | TRUE  | FALSE |
-* Logical NOT:
+#### Logical NOT:
 | NOT   | TRUE  | FALSE |
 |-------|-------|-------|
 | TRUE  | FALSE | TRUE  |
