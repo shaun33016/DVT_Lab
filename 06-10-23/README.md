@@ -24,3 +24,19 @@ Stuff done on 06-10-23.
 | ==                  | Equal to                     | 8 == 8 = True |
 | !=                  | Not equal to                 | 7 != 7 = False |
 
+## Logical Operators:
+* Logical AND:
+  | AND   | TRUE | FALSE |
+|-------|------|-------|
+| TRUE  | TRUE | FALSE |
+| FALSE | FALSE| FALSE |
+* Logical OR:
+|  OR   | TRUE  | FALSE |
+|-------|-------|-------|
+| TRUE  | TRUE  | TRUE  |
+| FALSE | TRUE  | FALSE |
+* Logical NOT:
+| NOT   | TRUE  | FALSE |
+|-------|-------|-------|
+| TRUE  | FALSE | TRUE  |
+| FALSE | TRUE  | FALSE |
