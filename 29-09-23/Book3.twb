@@ -1,0 +1,908 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.PatternedLineMarks.true...PatternedLineMarks />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='global-data-on-sustainable-energy (1)' inline='true' name='federated.03lteto09sdvv31cx6onw114actc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='global-data-on-sustainable-energy (1)' name='textscan.13q6d2817uduog126jcg41idk8bw'>
+            <connection class='textscan' directory='C:/Users/Student/Desktop/4nm21ai065/29-09-2023' filename='global-data-on-sustainable-energy (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13q6d2817uduog126jcg41idk8bw' name='global-data-on-sustainable-energy (1).csv' table='[global-data-on-sustainable-energy (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Access to electricity (% of population)' ordinal='2' />
+            <column datatype='real' name='Access to clean fuels for cooking' ordinal='3' />
+            <column datatype='real' name='Renewable-electricity-generating-capacity-per-capita' ordinal='4' />
+            <column datatype='integer' name='Financial flows to developing countries (US $)' ordinal='5' />
+            <column datatype='real' name='Renewable energy share in the total final energy consumption (%)' ordinal='6' />
+            <column datatype='real' name='Electricity from fossil fuels (TWh)' ordinal='7' />
+            <column datatype='real' name='Electricity from nuclear (TWh)' ordinal='8' />
+            <column datatype='real' name='Electricity from renewables (TWh)' ordinal='9' />
+            <column datatype='real' name='Low-carbon electricity (% electricity)' ordinal='10' />
+            <column datatype='real' name='Primary energy consumption per capita (kWh/person)' ordinal='11' />
+            <column datatype='real' name='Energy intensity level of primary energy (MJ/$2017 PPP GDP)' ordinal='12' />
+            <column datatype='real' name='Value_co2_emissions_kt_by_country' ordinal='13' />
+            <column datatype='real' name='Renewables (% equivalent primary energy)' ordinal='14' />
+            <column datatype='real' name='gdp_growth' ordinal='15' />
+            <column datatype='real' name='gdp_per_capita' ordinal='16' />
+            <column datatype='integer' name='Density\n(P/Km2)' ordinal='17' />
+            <column datatype='integer' name='Land Area(Km2)' ordinal='18' />
+            <column datatype='real' name='Latitude' ordinal='19' />
+            <column datatype='real' name='Longitude' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13q6d2817uduog126jcg41idk8bw' name='global-data-on-sustainable-energy (1).csv' table='[global-data-on-sustainable-energy (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Access to electricity (% of population)' ordinal='2' />
+            <column datatype='real' name='Access to clean fuels for cooking' ordinal='3' />
+            <column datatype='real' name='Renewable-electricity-generating-capacity-per-capita' ordinal='4' />
+            <column datatype='integer' name='Financial flows to developing countries (US $)' ordinal='5' />
+            <column datatype='real' name='Renewable energy share in the total final energy consumption (%)' ordinal='6' />
+            <column datatype='real' name='Electricity from fossil fuels (TWh)' ordinal='7' />
+            <column datatype='real' name='Electricity from nuclear (TWh)' ordinal='8' />
+            <column datatype='real' name='Electricity from renewables (TWh)' ordinal='9' />
+            <column datatype='real' name='Low-carbon electricity (% electricity)' ordinal='10' />
+            <column datatype='real' name='Primary energy consumption per capita (kWh/person)' ordinal='11' />
+            <column datatype='real' name='Energy intensity level of primary energy (MJ/$2017 PPP GDP)' ordinal='12' />
+            <column datatype='real' name='Value_co2_emissions_kt_by_country' ordinal='13' />
+            <column datatype='real' name='Renewables (% equivalent primary energy)' ordinal='14' />
+            <column datatype='real' name='gdp_growth' ordinal='15' />
+            <column datatype='real' name='gdp_per_capita' ordinal='16' />
+            <column datatype='integer' name='Density\n(P/Km2)' ordinal='17' />
+            <column datatype='integer' name='Land Area(Km2)' ordinal='18' />
+            <column datatype='real' name='Latitude' ordinal='19' />
+            <column datatype='real' name='Longitude' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access to electricity (% of population)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Access to electricity (% of population)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Access to electricity (% of population)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access to clean fuels for cooking</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Access to clean fuels for cooking]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Access to clean fuels for cooking</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Renewable-electricity-generating-capacity-per-capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Renewable-electricity-generating-capacity-per-capita]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Renewable-electricity-generating-capacity-per-capita</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Financial flows to developing countries (US $)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Financial flows to developing countries (US $)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Financial flows to developing countries (US $)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Renewable energy share in the total final energy consumption (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Renewable energy share in the total final energy consumption (%)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Renewable energy share in the total final energy consumption (%)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity from fossil fuels (TWh)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity from fossil fuels (TWh)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Electricity from fossil fuels (TWh)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity from nuclear (TWh)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity from nuclear (TWh)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Electricity from nuclear (TWh)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity from renewables (TWh)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity from renewables (TWh)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Electricity from renewables (TWh)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low-carbon electricity (% electricity)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low-carbon electricity (% electricity)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Low-carbon electricity (% electricity)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary energy consumption per capita (kWh/person)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Primary energy consumption per capita (kWh/person)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Primary energy consumption per capita (kWh/person)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Energy intensity level of primary energy (MJ/$2017 PPP GDP)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Energy intensity level of primary energy (MJ/$2017 PPP GDP)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Energy intensity level of primary energy (MJ/$2017 PPP GDP)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_co2_emissions_kt_by_country</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value_co2_emissions_kt_by_country]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Value_co2_emissions_kt_by_country</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Renewables (% equivalent primary energy)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Renewables (% equivalent primary energy)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Renewables (% equivalent primary energy)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gdp_growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gdp_growth]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>gdp_growth</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gdp_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gdp_per_capita]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>gdp_per_capita</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Density\n(P/Km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Density\n(P/Km2)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Density\n(P/Km2)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land Area(Km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Land Area(Km2)]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Land Area(Km2)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[global-data-on-sustainable-energy (1).csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Access to clean fuels for cooking]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Access to electricity (% of population)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Electricity from fossil fuels (TWh)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Electricity from nuclear (TWh)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Electricity from renewables (TWh)]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[Entity]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Value co2 emissions kt by country' datatype='real' name='[Value_co2_emissions_kt_by_country]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='global-data-on-sustainable-energy (1).csv' datatype='table' name='[__tableau_internal_object_id__].[global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E]' role='measure' type='quantitative' />
+      <column caption='Gdp Growth' datatype='real' name='[gdp_growth]' role='measure' type='quantitative' />
+      <column caption='Gdp Per Capita' datatype='real' name='[gdp_per_capita]' role='measure' type='quantitative' />
+      <column-instance column='[Access to clean fuels for cooking]' derivation='Sum' name='[sum:Access to clean fuels for cooking:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Access to electricity (% of population)]' derivation='Sum' name='[sum:Access to electricity (% of population):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Electricity from fossil fuels (TWh)]' derivation='Sum' name='[sum:Electricity from fossil fuels (TWh):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Electricity from nuclear (TWh)]' derivation='Sum' name='[sum:Electricity from nuclear (TWh):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Electricity from renewables (TWh)]' derivation='Sum' name='[sum:Electricity from renewables (TWh):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[gdp_growth]' derivation='Sum' name='[sum:gdp_growth:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to electricity (\% of population):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to clean fuels for cooking:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from renewables (TWh):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:gdp_growth:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from fossil fuels (TWh):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='global-data-on-sustainable-energy (1).csv' id='global-data-on-sustainable-energy (1).csv_419F71078B034D55AAC6D0AD0AA8FC6E'>
+            <properties context=''>
+              <relation connection='textscan.13q6d2817uduog126jcg41idk8bw' name='global-data-on-sustainable-energy (1).csv' table='[global-data-on-sustainable-energy (1)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='real' name='Access to electricity (% of population)' ordinal='2' />
+                  <column datatype='real' name='Access to clean fuels for cooking' ordinal='3' />
+                  <column datatype='real' name='Renewable-electricity-generating-capacity-per-capita' ordinal='4' />
+                  <column datatype='integer' name='Financial flows to developing countries (US $)' ordinal='5' />
+                  <column datatype='real' name='Renewable energy share in the total final energy consumption (%)' ordinal='6' />
+                  <column datatype='real' name='Electricity from fossil fuels (TWh)' ordinal='7' />
+                  <column datatype='real' name='Electricity from nuclear (TWh)' ordinal='8' />
+                  <column datatype='real' name='Electricity from renewables (TWh)' ordinal='9' />
+                  <column datatype='real' name='Low-carbon electricity (% electricity)' ordinal='10' />
+                  <column datatype='real' name='Primary energy consumption per capita (kWh/person)' ordinal='11' />
+                  <column datatype='real' name='Energy intensity level of primary energy (MJ/$2017 PPP GDP)' ordinal='12' />
+                  <column datatype='real' name='Value_co2_emissions_kt_by_country' ordinal='13' />
+                  <column datatype='real' name='Renewables (% equivalent primary energy)' ordinal='14' />
+                  <column datatype='real' name='gdp_growth' ordinal='15' />
+                  <column datatype='real' name='gdp_per_capita' ordinal='16' />
+                  <column datatype='integer' name='Density\n(P/Km2)' ordinal='17' />
+                  <column datatype='integer' name='Land Area(Km2)' ordinal='18' />
+                  <column datatype='real' name='Latitude' ordinal='19' />
+                  <column datatype='real' name='Longitude' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>Production of Nuclear Energy</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global-data-on-sustainable-energy (1)' name='federated.03lteto09sdvv31cx6onw114actc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03lteto09sdvv31cx6onw114actc'>
+            <column datatype='real' name='[Electricity from nuclear (TWh)]' role='measure' type='quantitative' />
+            <column caption='Country' datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electricity from nuclear (TWh)]' derivation='Sum' name='[sum:Electricity from nuclear (TWh):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]' included-values='in-range'>
+            <min>2.0</min>
+            <max>809.40999999999997</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.03lteto09sdvv31cx6onw114actc].[none:Entity:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <size column='[federated.03lteto09sdvv31cx6onw114actc].[none:Year:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]</rows>
+        <cols>[federated.03lteto09sdvv31cx6onw114actc].[none:Entity:nk]</cols>
+      </table>
+      <simple-id uuid='{F86107B8-FDBB-4DC5-898F-41448447BD3C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global-data-on-sustainable-energy (1)' name='federated.03lteto09sdvv31cx6onw114actc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03lteto09sdvv31cx6onw114actc'>
+            <column datatype='real' name='[Access to clean fuels for cooking]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Access to electricity (% of population)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Electricity from fossil fuels (TWh)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Electricity from nuclear (TWh)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Electricity from renewables (TWh)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Access to clean fuels for cooking]' derivation='Sum' name='[sum:Access to clean fuels for cooking:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Access to electricity (% of population)]' derivation='Sum' name='[sum:Access to electricity (% of population):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electricity from fossil fuels (TWh)]' derivation='Sum' name='[sum:Electricity from fossil fuels (TWh):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electricity from nuclear (TWh)]' derivation='Sum' name='[sum:Electricity from nuclear (TWh):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electricity from renewables (TWh)]' derivation='Sum' name='[sum:Electricity from renewables (TWh):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from fossil fuels (TWh):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from renewables (TWh):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from nuclear (TWh):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to electricity (\% of population):qk]&quot;</bucket>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from fossil fuels (TWh):qk]&quot;</bucket>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Electricity from renewables (TWh):qk]&quot;</bucket>
+              <bucket>&quot;[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to clean fuels for cooking:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to electricity (% of population):qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to electricity (% of population):qk]</column>
+            <column>[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='67' />
+            <format attr='width' value='136' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03lteto09sdvv31cx6onw114actc].[Multiple Values]</rows>
+        <cols>[federated.03lteto09sdvv31cx6onw114actc].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{0F382568-4F65-4CDC-ABC2-BC0E3672509F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]</field>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[none:Entity:nk]</field>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A4C72581-267A-4A1A-B3D6-3C71987620D1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='7' param='[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[:Measure Names]</field>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[none:Entity:nk]</field>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[none:Year:qk]</field>
+            <field>[federated.03lteto09sdvv31cx6onw114actc].[sum:Access to electricity (% of population):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FD392E8F-E9CF-4EE3-ACAC-120EA6D95B86}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAVxklEQVR4nO3dW4wcV37f8W9d+t7T09e5czjkUCRFSWvJK+1CWKxXsdeBgQVi2HCSRRAE
+      CPYlgI08BwGCIC9BnvMUIEjyEGSjBE5iI0EQe+2ss16vvSt5r1qRIkUOxblfenr6Xl23k4cR
+      Z4fq6mpyOD0z7Pp/ngjVX92nyfpVnXOqTpWmlFIIEVH6eTdAiPMkARCRJgEQZ0DxwY/fZ6ta
+      79vi2R3alnMObTpknts3i8hQrQ323DzT1j5/+ifvU5xaIJc02d1Zo/noLr1Lb5HubpAtzZLN
+      pHj55k20M2qbBECMnJauoDW+y6aRx/d9rE6d2r5LqVBkZnmJVSNGPj9PLuaw5cTObOcH0GQW
+      SFwUWxtrlKbniBln1zM/tQB4nodhGKfxUUKcGRkEi0iTAIhIkwCISJMAiEiTAIhIkwCISDvV
+      C2GO67Gx1xy4vTSZJpuKn+ZXCvFcTjUAO7U2//hf/5+B23/vt9/i199cPs2vFOK5SBdIRJoE
+      QESaBEBE2jONAWyrw0G7RzYG1ZZNKT+B67rkcrlRtU+IkXqmABhmHKdX55PNbZK5Cvfv/IzS
+      pRtkfR/f9/F8L/T/930f13Wfq8FCnKZnCoDVabK+tsH0dIFGo0F59hK21UbT8+hKYejhd4Pq
+      uo5pyhIEcXE8096YyRX4whc+P6q2CHHmZBAsIk0CICJNAiAiTQIgIk0CICJNAiAiTQIgIk0C
+      ICJNAiAiTQIgIk0CICJNAiAiTQIgIk0CICJNAiAi7ZkC4Dk2+wcNlPKpVvexLIt2uz2qtgkx
+      cs+0IMbzfTrtNtgtNvfaYD+gMHeVVColSyLFC+mZAuD0uqw+WqVSnqRRr7M4P43d7aDpRVkS
+      KV5Iz7wk8u23vwDAtZdG0h4hzpQMgkWkSQBEpEkARKRJAESkSQBEpEkARKRJAESkSQBEpEkA
+      RKRJAESkSQBEpEkARKRJAESkSQBEpEkARKQ903qAXqdFrW2T1BxqHZdKMY/rOuTz+VG1T4iR
+      eqYAxJJp/IMm6eIk9c4+Dz76GZXLt8jJWyLFC+qZAtBt1Vlf36RRr2ImJ5m5tETPaqHpOVkS
+      KV5Iz7wk8q23CqNqixBnTgbBItIkACLSJAAi0voC8M1vfhPHcc6jLUKcub4AWJbFu+++y+7u
+      Lr7vn0ebhDgzfQG4ceMGS0tL3LlzB88Ln9cX4kXXNw36pS996TzaIcS56AvA/vY69x6uoWsa
+      qVyJV24uo51Hy4Q4A31doMnyDEvz07iezvLy5fNokxBnpi8AdrvO977/1/iAbuhy9BdjrS8A
+      mqZRLhfZ36viq/NokhBnpy8AjtVir9YiO5nD1OT4L8Zb3yBYMxNUygUMM4aPAukEiTHWdwY4
+      WN/ENkwMXfr/Yvz1nQFimUnevH6LjKHj2DYqmZQgiLHVF4DUZIo7P/ohvlIUKnNcX1482ubY
+      FvWWRdLwafYU+Yk0rusyMTFxpo0W4rT0BSBXnObSvE1pZo5Y3zSoTs/q0nFt8OHe+gPK89fI
+      ZGRJpHgxBa4I83tNvvWt/8ev/c13SBq/iIBttVlbXadczmE5GpWpGXpWB00vyJJI8UIK3Bur
+      tR0e3r6P/WtfIXlsn87kCnzxi2+eVduEGLnAAMwvXOXmG+YTR38hxlHgirCtzYfc/cnH9ORS
+      sBhzfQHoNqpUGz7Lt5aI6XIGEOOtfxo0V6JSLKL5YHvqiTGAEOMmsAs0kdJ57+f3SMgYQIy5
+      wAAkM5OUJlLYMgYQYy4wAO1Wk0J5iricAcSYC5wG7VkWozz2K6XoOYOvGpuGjmnII4vE6AUG
+      4Norr3PF80a2HqDWtPiH/+oPB27/xtfe4G996cZIvluI4wIPsx/89V/y3b/4gVwHEGMvMAB2
+      t83KyiM8JQEQ4y2wCzRZmmKuLQNgMf4CAzAxMUE61yOuy0BUjLe+PVwpxdb6Kp6vfbomWIjx
+      1ReA+sYn/PjeGrpykSGAGHd9XaD8/BJf/zszJELWAq8/ekDTgnJxAtv2mJubGXEzhRiNwDFA
+      s7rF//ze+7z59pe5sjDdt91xHHq2z/rDbSpLr+A/41sihz11WpZOirMSGIBOx+JX/sZXiZvB
+      54BMJoun+1QuL+A4DpquP9OSSMOQpZPiYgjYyxy+/733yE3P8StffSfwf6rMzFMZbbuEOBMB
+      85yKW6++SjKZRJdHI4oxFxCAOJ5voZwetifTQGK8BQTAxtTjtG1PbocWYy9gDBAnXyrwziuv
+      kZA1wWLMBS+IaTZ478//gpYrb4kU4y0gAA53bt9DxeNyBhBjLyAAMZauLhLzXCwZBIsxF/xU
+      iKzBTrWLjIHFuAt+KkR6AjRfHowlxl5fANq1He7c36BYyiHviRfjrm8atLa2QzqRBjTarkdK
+      ns4gxljf3l26PIcR09FjMSZMeS6iGG8BzwYt8uZbxfNoixBnTvo3ItIkACLSTrTqZG97g7ar
+      k0vHsW2X6emp026XEGfiRAGoVvfAzHCwuSJLIsUL7UQBqFSmqDYsFq+9jGP30PScLIkUL6QT
+      7WXFygxFWRMpxoAMgkWkSQBEpEkARKRJAESkSQBEpEkARKRJAESkSQBEpEkARKRJAESkSQBE
+      pEkARKRJAESkSQBEpEkARKSdaD2A021x+/46s1N5eo7PwvzsabdLiDNxogB89NEd6m0PZdWo
+      XH5ZlkSKF9aJAvDq62/SqNfRDRPHseUtkeKFdeK9LDc5+emfMqfUFCHOngyCRaRJAESkXeiO
+      tlIKzx/8lhpd09DlHQbiOVzoAFi2y9f/xX8buP3vffU1/u6vvnKGLRLjRrpAItIkACLSJAAi
+      0iQAItIkACLSJAAi0i70NOiz+K/f/vnAbTcXy3xueRqA//Gd2zieH1i3PFfk8zfkztYoGZsA
+      /Kdv/Wzgtt/68s2jAPyX//tzunbwnaa/8cVrEoCIkS6QiDQJgIg0CYCItJO9JG9nk92DLpXy
+      JLbtMjszfdrtEuJMnCgAqVSaSWWy/uAu5RG+JfK0lk4qpY7qBt9bCkqWYkbOiQKwv7+HreJc
+      vv4Kjj26JZGGF7a7Pv3SSU3TjurCbp7Wjn3eH/3gY6wBs0ULlRyfvzE39HvFxXeiACxcXj7t
+      dlw47/7pB+w3rcBtX3n98lEA/s0fvk+10Q2su36pxN9+59bI2iie39hcBzgvP7m/zcZe87yb
+      IU5IZoFEpMkZ4Iz8s3/3bVY2aoHbbl2p8E///pfPuEUCJABnpm3ZNLt24LaO5Rz9+T//yc94
+      tNMIrJstZvkHv/FLI2lfVEkALpgPVnb5YGUncNu1+eLRn//7d27z8dp+YF1pMsU3vvbLI2nf
+      uJEAvKA+fLjLe3c2ArctVCb4xtfOuEEvKBkEi0iTM8CY++n9bTarrcBtybjBV15fOtsGXTAS
+      gDH3rfcf8J2ffBK4rZRLRT4A0gUSkSZnAAHA7U/2WN8Nnn41DZ133lgCoNnp0T42bXucBkwX
+      syNq4WhIAAQA3/7RCn/0g/uB29KJ2FEAfv/PbvMH370TWKcBf/Avvw7A9z9c4y9/vjbw+373
+      t94iZho82q5zb60a/L3JOG+/svD0P+IEThQA1+lhu5CIm/i+TywWO+12iRfcyuYB3/7Rw4Hb
+      /9FvvkkM+NG9Tf79//5xYM18ZeIoAI12b+DduYauUZpMA4dnqG4vuE7TNCr59BP/7UQBWF9b
+      w7IVhuYQzxRZnJcFMWK0/u3/+uHAwXwxl+I//JPfBOA//vFPB57JUgmTd//57wDw+3/2IX/8
+      3v2TD4I17XBBilIqdJGJEBdRs2uzXWuf7AwwNz9Pz4Xkp10gIV5UmlLquQ/gvu/jeR6+gp1a
+      e2BdPpskGTdQaGzvB1+cAZjMJEglTDRNG3gRB2AinSCTNNF1PfSe/GwqzkQ6fvR5g35yJhkj
+      l0kAh79j0Ms5UokY+exh3e5BB3fAg7aScZNiLoVSir16F8cNXuKZiBmUJtP4vk+tadFzguti
+      pkElf1h30BrcJzYNnalCBt/3qbdtur3gWRtD15guZvF9n0bHfuKmvOM0TWO2dFjX6jq0BtzU
+      BzBXnsD3fdqWS7PTG1g3W8qilKLTc2m0g+tO8juaHXvwLFXA7ziVAMBhCHT9yR7V2sP77Hc8
+      PnfremhdbW8bR08wVcyH1tk9C09BKpkMrWsd7LG62+DGtSvo2uEiyMc/U9N+sSiy2TjAjKdJ
+      JuNHSyWD6rqtOp+s73D12jJxQx9Y1+s02a+3KU1NEzee/F7le3StHpqmk0qn0ACn12Vvv0ax
+      MkPc0FBKPfFbfNfBsh0SyRTGsTfhfPY3+56L1bNJJJIYhj6wznNtdnf3yBXKpJPxkM9zWHmw
+      QmF6nmIuM7BO+R4rDx6QK81QLkwMrOtZXVxPEYvFiMdjwXXKp9u1UAriySTmkN+x8mCF8twi
+      +WzquX7HqV0I++xOCOArRSE/ObRubeUuP739YGjdvbsfcVBvDq3b3Vrj0do2x6OtadoTOyuA
+      pnzu3bvL2sZ2aN325jo721tYjgqt293a4MPbH9C03L463/e599FH3P3wDo+PT9trj7A8Beqw
+      7rO/ZfPRClvVWt+jHD9bV91cZXVrF9sNr2vXdtlrdPvGbJ+t67VqrG7tcXDQCK3zrAMebFQ5
+      qO2H1rntPT78eJV7D1ZC6zZXV1h9dL/vdvD+A1yVrZ0dDhrt0Lqn+R0jvRK8vvqQR8d2rkHK
+      C9e4dXX4IwlL+Swrq8F3QB6XL8/x2svLDHt92EG9QWVqivmZqYE1rm2hxzMsLS2RioV/YDyV
+      5fqNW+SS/Yv+zVicqWKGrmfweKuvQHk+g55VkZmYYGf1AfVO+JMqYskU3cYBPSe8Tikf5auB
+      XcCjOiPJ8tIlKuVCaJ1LnBtX5pmaGvz3B5ApzJDWe0xNh/wbazrzC/PY7mG3J4yZSHP58hKV
+      Qi607uh3lAb/jpEFQCnF/OJVKsdOjQN5zsD+3XHNeo3mgP7icTs7O7hDHqkCoCmF7bihs1hm
+      PHnYvnbjiTNAIM/D9XwG7l+Gge84R9+XLxbxHQtn0DyCbhw+0cIID14imcJzLNyQFwoCpHMl
+      krpDK6RvjvKp1/awbJd2J3ix/2NxA7q2P/xFhW6Htq0TM8N3t2a9jplMDd0pNd8BM0kiHj6H
+      k4ibWJaFGzJRM7IAeE6Pau0A0xx+kWyvuk8mM/yF2+nJClcWKsO+mGJl+qjvH0Y5HW5/dB9n
+      yONXDM3j4fo2oR+pfGLpNDFdC3z0ilI+XQsuzRZ4/M/hui74XvCO67vsVmvMzkyHfy9g92zi
+      cRN3wCD7OF3T8MPOAJpOuVxBUz6heVKK7Z0depaFN2wm0EhhajbNxuAJDYBMLk/nYJfOgMH9
+      Y7FEio2Hd6nWB0+4oHx2dvfpdjsMPiKNMABmPInd2uf+o+FdlkIuzSdP0bWxuh1q1T0arZAj
+      kxGjcbA/9NlDANniFItzlScGmEHSuQKL87OYYXWajtVqcPej27Ts/h1CKZd2q0nL8TEB5Tk8
+      Wt8iprl0A+rRTaaKk3QtO/RVsXA42Esk0kOvx9iOTSKdZTKTCq3zHAvb05nMpgcXaRpT5QKZ
+      XIHafvDKtMeU18MjhueH7NhK0bN6JOKxgbNlj3WadXqOR8cKOZNpOvlsjEdrW2zvDW7fSLtA
+      C1dvcGVuyBEbOKhVaYdMrT1mt/ZY2++Syw7+B2zX93GVRrvTGbpD7Ff3mZicHDpWqO7sMpEv
+      hgcA0Iw4V65cIRFwqtf1OJVKieKnkwKaEeP61ct0PZNMPPhzO12Lve012r2wHUJhxhLYjkO3
+      E36EdXsdqntV/uqHPwn5OIVmJjA0F2/A9O5jWizNxif3iMUToXXVao3JyQkKhZAxhfJoWz3S
+      E3ly6fjgOiCWSFAulajXwoMXS2b53Guvcnlu8J0KIwuAY7XZ2dlFM4Z3gSYKM7z9+VdDa6xO
+      i1RxgddvXAmta9RqlGcXcHudsDMfAK7roOtG6NPiAMrlAg8fPgztSwKYmoft6xha8Bc7joNz
+      bAywvb2N6tX5qx9/GFhfKORJF+aZKyQDtx9+aIuVT9Y/3XFD6pTCiCVJJOIsXZoP+RWKZtsi
+      P5nDNIecRT0XpelDu0DlqSm6rWb44Fs3iePiYgbO7B2naTqJRBxfhX+vbsZp16s0u4PPFCML
+      wOrqBvFEgnYn/KFRrVaLeCJGs9UJrUsk0ywsXMJzg5/W9tjs5asoq8ns/OLQrk0ymXqqN83X
+      ajXcnoUdciBWyj/8C2+3CHoAo91to8cSWL3e0dapqTI9MnzxtZcCP9N1bDTlYYV9cSzLwqU5
+      bty8wXw5bMJBYTsOvlKUCvnBZZpOuTLF9PT0E9cKgvh2m0xxBqcX/m+C79GwXBoH4UfsiUKJ
+      mO7jh3X5fI+DZodEMsWN5auhn+c5FmYiFXqGH9nt0IuXF2j3/MDuwHFbWxvUGy0WLi2F1mm6
+      jqnrXH8peGf5RaFGufJ0N+eZODxa26ZcKg88ErTrVUoLL1EolgibjPEdm0anR7GQJ+gAppSP
+      bdu0Gy08Do881b19JvKTJBPBXYh4MkNqyEwHaBRL5SE1gKZjaj5ra6sk81PkJ0L6909DKVq2
+      wctXZtjZOwiv1WNMpgyMWMjYw+mwU61h+/oTF8H6P8ugXCzw8OEDXCNFJlUa2D7le3iejx0y
+      PTyyADiOy/bWFmY8yfLS4sC6a9euD9w2ar1ui539Dq6viA3Yu2PxOBvrq6AUS4XBwdJ0g2w2
+      S2Nvg3p3hnL2yX/ERHqCq1ePHaGVYrJUptkeMKB3Gqxt7mNZFh3bI5d6zlvOlcdercPS4iUK
+      z7vzH34gG1ubZDJZtPiQz7MOaJNE268yPzMgrMqn0+niG4kh1ykUnueiMMmFDuYVe7UmMdMg
+      mx5cN7IApLM5krE9ehf0ceN2t0NhbplXUo2j2xaCxFMTvHRt+LUM5bs0Gg1I5Minh/+1Ks+m
+      1rKI4QVPN5ppPGeLa9eu4g09CzwFp8tBs47nK7Ra8/lDoOm8fOvVvts3grhKZ7pSRrdDBunx
+      LDdv3hz+vW6XD+98jK9cjEaLYm7A7/BdDg4a+J7Hzl6VXCZ43DPSFWGNehUt/RSn53NQ39+l
+      TQLX7mK7Pqn48GnTMEY8xdWr4X3SJ2g6ptOk5iapBHVSNZOXbpzi2TGe5ZffON2HZQXdDhLE
+      sj2cdouFhVN4pLwWo1wp4fmKyVzItSMjxsz0FJncJGFj9JEGIJ1O0/Eu5hmgMrcIO1tMTM0+
+      985/EpoRY+HqTUa74O9iiKfS9Lq7eE9xoW4oI8bi4uWnKNQolodPwY9sFsi1u2xXG0MvV58b
+      TaMyPUupMDm8VjyXeCx2OBM0ZKbvPIxu79QMXlq+gqsuaADEmVGaSS6b5iKuHRzdrRCxOAe1
+      2vCLKWLsPVrboGf38JzhV/vP2sgOz77nYZoGPXv4XZ5ivMU0l+zsZZR78QJwaivCPqvTbtJo
+      ttnc3uWNX3ptFF8hxHP7/22r2kD1yrmoAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
