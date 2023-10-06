@@ -85,4 +85,6 @@ These functions evaluate some single value or the result of an expression and pr
 
 ## Calculations
   -Numeric Calculations [Click here](https://www.tutorialspoint.com/tableau/tableau_numeric_calculations.htm)
-  
+  -String Calculations [Click here](https://www.tutorialspoint.com/tableau/tableau_string_calculations.htm)
+  -Date Calculations [Click here](https://www.tutorialspoint.com/tableau/tableau_date_calculations.htm)
+  -Table Calculations [Click here](https://www.tutorialspoint.com/tableau/tableau_table_calculations.htm)
