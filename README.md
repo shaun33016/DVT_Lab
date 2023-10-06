@@ -2,4 +2,4 @@
 
 Stuff done in Data Visualization Techniques and Tools Lab.
 
-[Refer this to know all about Tableau](https://www.tutorialspoint.com/tableau)
+[Click here to know all about Tableau](https://www.tutorialspoint.com/tableau)
