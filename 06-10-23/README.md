@@ -84,4 +84,5 @@ These functions evaluate some single value or the result of an expression and pr
 | STDEV(expression) | Returns the statistical standard deviation of all values in the given expression based on a sample of the population. | STDEV([Data]) = Standard deviation of the given data    |
 
 ## Calculations
-*Numeric Calculations
+  -Numeric Calculations [Click here](https://www.tutorialspoint.com/tableau/tableau_numeric_calculations.htm)
+  
