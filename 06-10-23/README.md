@@ -49,7 +49,7 @@ These are the functions used for numeric calculations. They only take numbers as
 | POWER(number, power) | Raises the number to the specified power.                 | POWER(5,3) = 125            |
 | ROUND(number, [decimals]) | Rounds the number to a specified number of digits.      | ROUND(3.14152,2) = 3.14      |
 
-##String Functions
+## String Functions
 String Functions are used for string manipulation.
 | Function              | Description                                                                                     | Example                                |
 |-----------------------|-------------------------------------------------------------------------------------------------|----------------------------------------|
