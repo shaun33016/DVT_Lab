@@ -83,4 +83,5 @@ These functions evaluate some single value or the result of an expression and pr
 | MEDIAN(expression) | Returns the median of an expression across all records. Median can only be used with numeric fields. Null values are ignored. | MEDIAN([Scores]) = Median score                         |
 | STDEV(expression) | Returns the statistical standard deviation of all values in the given expression based on a sample of the population. | STDEV([Data]) = Standard deviation of the given data    |
 
-
+## Calculations
+*Numeric Calculations
